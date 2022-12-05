@@ -37,4 +37,8 @@ This part reset values of direction indication.
 ## Movement and Landing
 This part manages releveling and movement while elevator is idling.
 
-
+- If targetFloor is FALSE,
+	- Reset value of motion move up and down.
+	- Car lights set to FALSE.
+	- Parking function will be called.
+	- 
