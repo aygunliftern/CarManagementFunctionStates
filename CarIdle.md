@@ -7,16 +7,16 @@
 ## Door Management
 This part reset the doors.
 
-- If psuRequestDoorA is openTheDoor,
+- If [psuRequestDoorA](#psurequestdoor) is openTheDoor,
 	- If DoorA_Open is [TRUE](#true),
 		- Door A will be idle state.
-- If psuRequestDoorA is not openTheDoor,
+- If [psuRequestDoorA](#psurequestdoor) is not openTheDoor,
 	- Door A will be idle state.
 
-- If psuRequestDoorB is openTheDoor,
+- If [psuRequestDoorB](#psurequestdoor) is openTheDoor,
 	- If DoorB_Open is [TRUE](#true),
 		- Door B will be idle state.
-- If psuRequestDoorB is not openTheDoor,
+- If [psuRequestDoorB](#psurequestdoor) is not openTheDoor,
 	- Door B will be idle state.
 
 ## Reset Direction, Parameter Flag, Speed and Door Contact
@@ -55,6 +55,8 @@ This part manages releveling and movement while elevator is idling.
 
 # Expressions
 
+##### **psuRequestDoor**
+ > current command for the door.
 
 # Abbreviations
 
