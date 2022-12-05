@@ -46,4 +46,9 @@ This part manages releveling and movement while elevator is idling.
 			- Releveling timer will be reset.
 			- carManagement set to reLeveling
 - If targetFloor is not FALSE,
-	- 
+	- Car lights set to TRUE.
+	- Set value of motion move up and down.
+	- If carCurrentFloor is not targetFloor,
+		- carManagement is set to requestCloseDoor.
+- If psuRequestDoorA is openTheDoor or psuRequestDoorB is openTheDoor,
+	- Display shows "Passenger Loading/Unloading".
