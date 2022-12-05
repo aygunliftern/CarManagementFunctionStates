@@ -55,8 +55,6 @@ This part manages releveling and movement while elevator is idling.
 
 # Expressions
 
- ##### **onlyInspectionProcess**
- > is one of the states of the car controller states (carControllerStates)
 
 # Abbreviations
 
