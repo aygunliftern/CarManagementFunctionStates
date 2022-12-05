@@ -1,7 +1,7 @@
 # Contents
 
 1. [Door Management](#door-management) 
-2. Reset Direction, Parameter Flag, Speed and Door Contact
+2. [Reset Direction, Parameter Flag, Speed and Door Contact](#reset-direction-parameter-flag-speed-and-door-contact)
 3. Movement and Landing
 
 ## Door Management
