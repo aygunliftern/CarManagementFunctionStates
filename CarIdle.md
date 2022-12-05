@@ -41,4 +41,9 @@ This part manages releveling and movement while elevator is idling.
 	- Reset value of motion move up and down.
 	- Car lights set to FALSE.
 	- Parking function will be called.
+	- If car is in doorzone and door A is closed or open and door B is closed or open and releveling function is ENABLE,
+		- If signal 141 is ON and signal 142 is OFF or signal 141 OFF and signal 142 is ON,
+			- Releveling timer will be reset.
+			- carManagement set to reLeveling
+- If targetFloor is not FALSE,
 	- 
