@@ -2,7 +2,7 @@
 
 1. Door Management 
 2. Reset Direction, Parameter Flag, Speed and Door Contact
-3. Movement and landing
+3. Movement and Landing
 
 ## Door Management
 This part reset the doors.
@@ -33,5 +33,8 @@ This part reset values of direction indication.
 - Elevator Speed will be reset.
 
 - Bridge door contact values will be reset (NOT ACTIVE).
+
+## Movement and Landing
+
 
 
