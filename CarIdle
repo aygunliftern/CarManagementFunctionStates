@@ -6,3 +6,7 @@
 4. Movement and landing
 
 ## Door Management
+This part reset the doors.
+
+- If psuRequestDoorA is openTheDoor,
+  - kömnsf
