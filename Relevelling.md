@@ -27,12 +27,12 @@ This part includes 2 part to update status of releveling,
 ### Doorzone Check
 This part includes conditions to check if elevator is in doorzone.
 
-- If value of oCarIsInDoorZone is TRUE and carIsOnLevelWithDeviation is TRUE,
+- If value of oCarIsInDoorZone is [TRUE](#true) and carIsOnLevelWithDeviation is [TRUE](#true),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
   - statusReleveling set to sucessfulReleveling.
   - carManagement set to carIdle.
-- If signal 141 is FALSE and signal 142 is FALSE,
+- If signal 141 is FALSE and signal 142 is [FALSE](#false),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
   - statusReleveling set to errorReleveling.
@@ -46,22 +46,31 @@ This part includes conditions of releveling timer.
   - Releveling timer will be reset.
   - statusReleveling set to failedReleveling.
   - carManagement set to carIdle.
-- If timerReLeveling exceeds 5 seconds and oCarIsInDoorZone is FALSE,
+- If timerReLeveling exceeds 5 seconds and oCarIsInDoorZone is [FALSE](#false),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
   - statusReleveling set to failedReleveling.
   - carManagement set to carIdle.
-- If timerReleveling is less than and equal to 5 seconds or timerReleveling is bigger than 5 seconds, timerReleveling is less than 20 seconds and oCarIsInDoorZone is TRUE,
+- If timerReleveling is less than and equal to 5 seconds or timerReleveling is bigger than 5 seconds, timerReleveling is less than 20 seconds and oCarIsInDoorZone is [TRUE](#true),
   - statusReleveling set to processingReleveling.
-  - If signal 141 is FALSE and signal 142 is TRUE,
+  - If signal 141 is [FALSE](#false) and signal 142 is [TRUE](#true),
     - Elevator Speed set to relevellingSpeedDown.
-  - If signal 141 is TRUE and signal 142 is FALSE,
+  - If signal 141 is [TRUE](#true) and signal 142 is [FALSE](#false),
     - Elevator Speed set to relevellingSpeedUp.
 
+# Expressions
 
+ ##### **onlyInspectionProcess**
+ > is one of the states of the car controller states (carControllerStates)
 
+# Abbreviations
 
-
-    
-
+ ##### **DISABLE** 
+ > means the input is 0
+ ##### **ENABLE**
+ > means the input is 1
+ ##### **FALSE** 
+ > means the input is 0
+ ##### **TRUE**
+ > means the input is 1
 
