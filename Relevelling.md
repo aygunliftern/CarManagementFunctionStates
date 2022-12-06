@@ -8,7 +8,7 @@
 This part includes incrementation of the timer and display of message.
 
 - Display shows “Relevelling”.
-- timerReLeveling incremented by timer10msDiff
+- Releveling timer incremented by timer10msDiff
 
 ## Bridging
 This part includes door bridging.
@@ -19,7 +19,15 @@ This part includes door bridging.
   - Do not bridge the door(will be explained).
 
 ## Releveling Status
-This part includes conditions to update status of releveling.
+This part includes 2 part to update status of releveling,
+
+1. Doorzone Check
+2. Timer Check
+
+### Doorzone
+This part includes conditions to check if elevator is in doorzone.
 
 - If value of oCarIsInDoorZone is TRUE and carIsOnLevelWithDeviation is TRUE,
-  - El
+  - Elevator Speed will be reset.
+  - Releveling timer will be reset.
+  - 
