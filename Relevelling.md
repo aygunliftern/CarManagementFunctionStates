@@ -30,12 +30,12 @@ This part includes conditions to check if elevator is in doorzone.
 - If value of oCarIsInDoorZone is [TRUE](#true) and carIsOnLevelWithDeviation is [TRUE](#true),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
-  - statusReleveling set to sucessfulReleveling.
+  - [statusReleveling](#statusreleveling-) set to sucessfulReleveling.
   - carManagement set to carIdle.
 - If signal 141 is FALSE and signal 142 is [FALSE](#false),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
-  - statusReleveling set to errorReleveling.
+  - [statusReleveling](#statusreleveling-) set to errorReleveling.
   - carManagement set to carIdle.
 
 ### Timer Check
@@ -44,15 +44,15 @@ This part includes conditions of releveling timer.
 - If timerReLeveling exceeds 20 seconds,
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
-  - statusReleveling set to failedReleveling.
+  - [statusReleveling](#statusreleveling-) set to failedReleveling.
   - carManagement set to carIdle.
 - If timerReLeveling exceeds 5 seconds and oCarIsInDoorZone is [FALSE](#false),
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
-  - statusReleveling set to failedReleveling.
+  - [statusReleveling](#statusreleveling-) set to failedReleveling.
   - carManagement set to carIdle.
 - If timerReleveling is less than and equal to 5 seconds or timerReleveling is bigger than 5 seconds, timerReleveling is less than 20 seconds and oCarIsInDoorZone is [TRUE](#true),
-  - statusReleveling set to processingReleveling.
+  - [statusReleveling](#statusreleveling-) set to processingReleveling.
   - If signal 141 is [FALSE](#false) and signal 142 is [TRUE](#true),
     - Elevator Speed set to relevellingSpeedDown.
   - If signal 141 is [TRUE](#true) and signal 142 is [FALSE](#false),
