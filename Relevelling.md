@@ -54,7 +54,9 @@ This part includes conditions of releveling timer.
 - If timerReleveling is less than and equal to 5 seconds or timerReleveling is bigger than 5 seconds, timerReleveling is less than 20 seconds and oCarIsInDoorZone is TRUE,
   - statusReleveling set to processingReleveling.
   - If signal 141 is FALSE and signal 142 is TRUE,
-    - SFD
+    - Elevator Speed set to relevellingSpeedDown.
+  - If signal 141 is TRUE and signal 142 is FALSE,
+    - Elevator Speed set to relevellingSpeedUp.
 
 
 
