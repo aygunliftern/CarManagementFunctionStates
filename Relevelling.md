@@ -60,7 +60,7 @@ This part includes conditions of releveling timer.
 
 # Expressions
 
- ##### **statusReleveling **
+ ##### **statusReleveling**
  > indicates current phase of releveling.
  ##### **carManagement**
  > indicates car current state.
