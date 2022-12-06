@@ -21,4 +21,5 @@ This part includes door bridging.
 ## Releveling Status
 This part includes conditions to update status of releveling.
 
-
+- If value of oCarIsInDoorZone is TRUE and carIsOnLevelWithDeviation is TRUE,
+  - El
