@@ -62,6 +62,8 @@ This part includes conditions of releveling timer.
 
  ##### **statusReleveling **
  > indicates current phase of releveling.
+ ##### **carManagement**
+ > indicates car current state.
 
 # Abbreviations
 
