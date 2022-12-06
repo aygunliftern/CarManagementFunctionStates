@@ -60,8 +60,8 @@ This part includes conditions of releveling timer.
 
 # Expressions
 
- ##### **onlyInspectionProcess**
- > is one of the states of the car controller states (carControllerStates)
+ ##### **statusReleveling **
+ > indicates current phase of releveling.
 
 # Abbreviations
 
