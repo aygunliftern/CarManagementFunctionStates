@@ -22,7 +22,7 @@ This part includes door bridging.
 This part includes 2 part to update status of releveling,
 
 1. [Doorzone Check](#doorzone-check)
-2. Timer Check
+2. [Timer Check](#timer-check)
 
 ### Doorzone Check
 This part includes conditions to check if elevator is in doorzone.
