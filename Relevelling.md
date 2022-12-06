@@ -1,7 +1,7 @@
 # Contents
 
 1. [Timer Increment](#timer-increment)
-2. Bridging
+2. [Bridging](#bridging)
 3. Releveling Status
 
 ## Timer Increment
