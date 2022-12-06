@@ -39,4 +39,27 @@ This part includes conditions to check if elevator is in doorzone.
   - carManagement set to carIdle.
 
 ### Timer Check
-This part
+This part includes conditions of releveling timer.
+
+- If timerReLeveling exceeds 20 seconds,
+  - Elevator Speed will be reset.
+  - Releveling timer will be reset.
+  - statusReleveling set to failedReleveling.
+  - carManagement set to carIdle.
+- If timerReLeveling exceeds 5 seconds and oCarIsInDoorZone is FALSE,
+  - Elevator Speed will be reset.
+  - Releveling timer will be reset.
+  - statusReleveling set to failedReleveling.
+  - carManagement set to carIdle.
+- If timerReleveling is less than and equal to 5 seconds or timerReleveling is bigger than 5 seconds, timerReleveling is less than 20 seconds and oCarIsInDoorZone is TRUE,
+  - statusReleveling set to processingReleveling.
+  - If signal 141 is FALSE and signal 142 is TRUE,
+    - SFD
+
+
+
+
+
+    
+
+
