@@ -2,7 +2,7 @@
 
 1. [Timer Increment](#timer-increment)
 2. [Bridging](#bridging)
-3. Releveling Status
+3. [Releveling Status](#releveling-status)
 
 ## Timer Increment
 This part includes incrementation of the timer and display of message.
