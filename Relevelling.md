@@ -24,10 +24,19 @@ This part includes 2 part to update status of releveling,
 1. Doorzone Check
 2. Timer Check
 
-### Doorzone
+### Doorzone Check
 This part includes conditions to check if elevator is in doorzone.
 
 - If value of oCarIsInDoorZone is TRUE and carIsOnLevelWithDeviation is TRUE,
   - Elevator Speed will be reset.
   - Releveling timer will be reset.
-  - 
+  - statusReleveling set to sucessfulReleveling.
+  - carManagement set to carIdle.
+- If signal 141 is FALSE and signal 142 is FALSE,
+  - Elevator Speed will be reset.
+  - Releveling timer will be reset.
+  - statusReleveling set to errorReleveling.
+  - carManagement set to carIdle.
+
+### Timer Check
+This part
